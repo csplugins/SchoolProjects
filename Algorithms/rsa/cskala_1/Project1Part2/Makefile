@@ -1,0 +1,2 @@
+all:
+	g++ sha256.cpp main.cpp ../Project1Part1/BigUnsigned.o ../Project1Part1/BigInteger.o ../Project1Part1/BigIntegerAlgorithms.o ../Project1Part1/BigUnsignedInABase.o ../Project1Part1/BigIntegerUtils.o -o sign

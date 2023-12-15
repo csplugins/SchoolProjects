@@ -1,0 +1,44 @@
+﻿<Page
+    x:Class="TicTacToe.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TicTacToe"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock Name="Desc" TextAlignment="Center"/>
+            <TextBlock Text="" TextAlignment="Center"/>
+            <TextBlock Name="X" TextAlignment="Center"/>
+            <TextBlock Name="O"  TextAlignment="Center"/>
+            <TextBlock Name="Ties" TextAlignment="Center"/>
+        </StackPanel>
+        <TextBlock Grid.Column="1" Text="TicTacToe" TextAlignment="Center" VerticalAlignment="Center"/>
+        <Button Grid.Column="2" Name="Replay" Content="Play Again?" Click="PlayAgain" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  Margin="5" Visibility="Collapsed"/>
+
+        <Button Grid.Row="1" Grid.Column="0" Name="TopLeft" Click="Calculate" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  Margin="5"/>
+        <Button Grid.Row="1" Grid.Column="1" Name="TopMiddle" Click="Calculate" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  Margin="5"/>
+        <Button Grid.Row="1" Grid.Column="2" Name="TopRight" Click="Calculate" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  Margin="5"/>
+
+        <Button Grid.Row="2" Grid.Column="0" Name="MiddleLeft" Click="Calculate" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  Margin="5"/>
+        <Button Grid.Row="2" Grid.Column="1" Name="MiddleMiddle" Click="Calculate" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  Margin="5"/>
+        <Button Grid.Row="2" Grid.Column="2" Name="MiddleRight" Click="Calculate" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  Margin="5"/>
+
+        <Button Grid.Row="3" Grid.Column="0" Name="BottomLeft" Click="Calculate" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  Margin="5"/>
+        <Button Grid.Row="3" Grid.Column="1" Name="BottomMiddle" Click="Calculate" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  Margin="5"/>
+        <Button Grid.Row="3" Grid.Column="2" Name="BottomRight" Click="Calculate" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  Margin="5"/>
+    </Grid>
+</Page>

@@ -1,0 +1,84 @@
+﻿<Page
+    x:Class="DeployedCalc.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DeployedCalc"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Name="ThisGrid" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+        <TextBox Text="Trig" VerticalAlignment="Center" IsReadOnly="True"/>
+        <CheckBox Grid.Row="1" Name="Sin" Content="Sin" IsChecked="False"/>
+        <CheckBox Grid.Row="2" Name="Cos" Content="Cos" IsChecked="False"/>
+        <CheckBox Grid.Row="3" Name="Tan" Content="Tan" IsChecked="False"/>
+        <TextBox Grid.Row="4" Text="Simple" VerticalAlignment="Center" IsReadOnly="True"/>
+        <CheckBox Grid.Row="5" Name="SimpleAdd" Content="Add" IsChecked="False"/>
+        <CheckBox Grid.Row="6" Name="SimpleSub" Content="Subtract" IsChecked="False"/>
+        <CheckBox Grid.Row="7" Name="SimpleMult" Content="Multiply" IsChecked="False"/>
+        <CheckBox Grid.Row="8" Name="SimpleDiv" Content="Divide" IsChecked="False"/>
+        <CheckBox Grid.Row="9" Name="SimplePow" Content="Power" IsChecked="False"/>
+        <CheckBox Grid.Row="10" Name="SimpleMod" Content="Modulous" IsChecked="False"/>
+        <TextBox Grid.Row="11" Text="Complex" VerticalAlignment="Center" IsReadOnly="True"/>
+        <CheckBox Grid.Row="12" Name="ComplexAdd" Content="Add" IsChecked="False"/>
+        <CheckBox Grid.Row="13" Name="ComplexSub" Content="Subtract" IsChecked="False"/>
+        <CheckBox Grid.Row="14" Name="ComplexMult" Content="Multiply" IsChecked="False"/>
+        <CheckBox Grid.Row="15" Name="ComplexDiv" Content="Divide" IsChecked="False"/>
+        <Button Grid.Row="16" Content="Display" Click="Button_Click"/>
+
+        <Button Name="SinT" Content="Sin" Click="Calculate" Visibility="Collapsed"/>
+        <Button Name="CosT" Content="Cos" Click="Calculate" Visibility="Collapsed"/>
+        <Button Name="TanT" Content="Tan" Click="Calculate" Visibility="Collapsed"/>
+        <TextBox Name="Num1" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="6" Text="" PlaceholderText="Number1" Visibility="Collapsed"/>
+        <TextBox Name="Result" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="6" Text="" Visibility="Collapsed" IsReadOnly="True"/>
+
+        <Button Name="SimplePlus" Grid.Row="4" Content="+" Click="Calculate" Visibility="Collapsed"/>
+        <Button Name="SimpleMinus" Grid.Row="4" Content="-" Click="Calculate" Visibility="Collapsed"/>
+        <Button Name="SimpleMultiply" Grid.Row="4" Content="x" Click="Calculate" Visibility="Collapsed"/>
+        <Button Name="SimpleDivide" Grid.Row="4" Content="÷" Click="Calculate" Visibility="Collapsed"/>
+        <Button Name="SimplePower" Grid.Row="4" Content="Pow" Click="Calculate" Visibility="Collapsed"/>
+        <Button Name="SimpleModulous" Grid.Row="4" Content="%" Click="Calculate" Visibility="Collapsed"/>
+        <TextBox Name="SimpleNum1" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="6" Text="" PlaceholderText="Number1" Visibility="Collapsed"/>
+        <TextBox Name="SimpleNum2" Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="6" Text="" PlaceholderText="Number 2" Visibility="Collapsed"/>
+        <TextBox Name="SimpleResult" Grid.Row="7" Grid.Column="1" Grid.ColumnSpan="6" Text="" Visibility="Collapsed" IsReadOnly="True"/>
+
+        <Button Name="ComplexPlus" Grid.Row="11" Content="+" Click="Calculate" Visibility="Collapsed"/>
+        <Button Name="ComplexMinus" Grid.Row="11" Content="-" Click="Calculate" Visibility="Collapsed"/>
+        <Button Name="ComplexMultiply" Grid.Row="11" Content="x" Click="Calculate" Visibility="Collapsed"/>
+        <Button Name="ComplexDivide" Grid.Row="11" Content="÷" Click="Calculate" Visibility="Collapsed"/>
+        <TextBox Name="ComplexReal1" Grid.Row="12" Grid.Column="1" Grid.ColumnSpan="6" Text="" PlaceholderText="Real 1" Visibility="Collapsed"/>
+        <TextBox Name="ComplexImg1" Grid.Row="13" Grid.Column="1" Grid.ColumnSpan="6" Text="" PlaceholderText="Imaginary 1" Visibility="Collapsed"/>
+        <TextBox Name="ComplexReal2" Grid.Row="14" Grid.Column="1" Grid.ColumnSpan="6" Text="" PlaceholderText="Real 2" Visibility="Collapsed"/>
+        <TextBox Name="ComplexImg2" Grid.Row="15" Grid.Column="1" Grid.ColumnSpan="6" Text="" PlaceholderText="Imaginary 2" Visibility="Collapsed"/>
+        <TextBox Name="ComplexResult" Grid.Row="16" Grid.Column="1" Grid.ColumnSpan="6" Text="" Visibility="Collapsed" IsReadOnly="True"/>
+    </Grid>
+</Page>

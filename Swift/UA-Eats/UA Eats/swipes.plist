@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>robs</key>
+	<dict>
+		<key>phone</key>
+		<string>(330) 972-8072</string>
+		<key>address</key>
+		<string>248 E Buchtel Ave</string>
+		<key>coodinateX</key>
+		<string>41.078122</string>
+		<key>coodinateY</key>
+		<string>-81.511626</string>
+		<key>site</key>
+		<string>https://www.uakron.edu/dining/menus.dot#rob</string>
+		<key>name</key>
+		<string>Rob&apos;s Dining Hall</string>
+		<key>hours</key>
+		<string>Monday thru Thursday,
+Breakfast 7 a.m. to 10:45 a.m.
+Lunch 11:00 a.m. to 3:45 p.m.
+Dinner 4 p.m. to 9 p.m.
+Late Night 10 p.m. to 1 a.m.
+
+Friday,
+Breakfast 7 a.m. to 10:45 a.m.
+Lunch 11:00 a.m. to 3:45 p.m.
+Dinner 4 p.m. to 9 p.m.
+
+Saturday,
+Daytime 9 a.m. to 7 p.m.
+
+Sunday,
+Daytime 9 a.m. to 9 p.m.
+Late Night 10 p.m. to 1 a.m.</string>
+		<key>description</key>
+		<string>An all you can eat style buffet featureing homesyle cooking, stir fry, fresh pizza, a sandwich/wrap station, salad bar, burgers, and more. One swipe per meal period for entry.</string>
+	</dict>
+	<key>unionMarket</key>
+	<dict>
+		<key>phone</key>
+		<string>(330) 972-6079</string>
+		<key>address</key>
+		<string>303 Carroll Street</string>
+		<key>coodinateX</key>
+		<string>41.075577</string>
+		<key>coodinateY</key>
+		<string>-81.512270</string>
+		<key>site</key>
+		<string>https://www.uakron.edu/dotAsset/eec29484-bf6d-4b75-a909-e84c80364ada.pdf</string>
+		<key>name</key>
+		<string>Union Market</string>
+		<key>hours</key>
+		<string>Monday thru Thursday, 8 a.m. to 6:30 p.m.
+Friday, 8 a.m. to 4:30 p.m.
+Saturday, 11 a.m. to 2 p.m.
+Sunday, closed</string>
+		<key>description</key>
+		<string>In the Student Union, grilled foods, a bakery, Chinese dishes, pasta, pizza, soups, salad bar and comfort foods.</string>
+	</dict>
+	<key>trackside</key>
+	<dict>
+		<key>phone</key>
+		<string>(330) 972-2696</string>
+		<key>address</key>
+		<string>135 S Broadway St</string>
+		<key>coodinateX</key>
+		<string>41.081064</string>
+		<key>coodinateY</key>
+		<string>-81.515130</string>
+		<key>site</key>
+		<string>https://www.uakron.edu/dotAsset/cb303b59-667e-4f3b-b390-1e33a109833b.pdf</string>
+		<key>name</key>
+		<string>Trackside Grill</string>
+		<key>hours</key>
+		<string>Monday thru Friday, 11 a.m. to 9 p.m.
+Saturday, noon to 4 p.m.
+Sunday, 3 p.m. to 8 p.m.</string>
+		<key>description</key>
+		<string>In Quaker Square, with a wide variety of menu options, including 13 sandwich choices, homemade salads and an chicken wings with a wide selection of sauces.</string>
+	</dict>
+	<key>zeesRobs</key>
+	<dict>
+		<key>phone</key>
+		<string>(330) 972-8670</string>
+		<key>address</key>
+		<string>248 E Buchtel Ave</string>
+		<key>coodinateX</key>
+		<string>41.078122</string>
+		<key>coodinateY</key>
+		<string>-81.511626</string>
+		<key>site</key>
+		<string>https://www.uakron.edu/dining/menus.dot#zqukr</string>
+		<key>name</key>
+		<string>Zee&apos;s (Rob&apos;s)</string>
+		<key>hours</key>
+		<string>Monday thru Thursday, 7 a.m. to 11 p.m.
+Friday, 7 a.m. to 9 p.m.
+Saturday, 11 a.m. to 9 p.m.
+Sunday, 11 a.m. to 10 p.m.</string>
+		<key>description</key>
+		<string>Specializes in best quality East and West Indian spices, rices, pickles, vegetables and fruits, lentils, teas, incenses, oils, hair and beauty products, herbal health products and other grocery items.</string>
+	</dict>
+	<key>zeesExchange</key>
+	<dict>
+		<key>phone</key>
+		<string>(330) 972-2816</string>
+		<key>address</key>
+		<string>180 E Exchange St</string>
+		<key>coodinateX</key>
+		<string>41.073930</string>
+		<key>coodinateY</key>
+		<string>-81.516608</string>
+		<key>site</key>
+		<string>https://www.uakron.edu/dining/menus.dot#zqukr</string>
+		<key>name</key>
+		<string>Zee&apos;s (Exchange)</string>
+		<key>hours</key>
+		<string>Monday thru Thursday, 8 a.m. to 11 p.m. 
+Friday, 8 a.m. to 9 p.m.
+Saturday, 10 a.m. to 9 p.m.
+Sunday, 10 a.m. to 11 p.m.</string>
+		<key>description</key>
+		<string>Specializes in best quality East and West Indian spices, rices, pickles, vegetables and fruits, lentils, teas, incenses, oils, hair and beauty products, herbal health products and other grocery items.</string>
+	</dict>
+	<key>zeesQuaker</key>
+	<dict>
+		<key>phone</key>
+		<string>(330) 972-2696</string>
+		<key>address</key>
+		<string>135 S Broadway St</string>
+		<key>coodinateX</key>
+		<string>41.081063</string>
+		<key>coodinateY</key>
+		<string>-81.515129</string>
+		<key>site</key>
+		<string>https://www.uakron.edu/dining/menus.dot#zqukr</string>
+		<key>name</key>
+		<string>Zee&apos;s (Quaker)</string>
+		<key>hours</key>
+		<string>Monday through Thursday, 8 a.m. to 10 p.m.
+Friday, 8 a.m. to 9 p.m.
+Saturday noon to 9 p.m.
+Sunday, noon to 10 p.m.</string>
+		<key>description</key>
+		<string>Specializes in best quality East and West Indian spices, rices, pickles, vegetables and fruits, lentils, teas, incenses, oils, hair and beauty products, herbal health products and other grocery items.</string>
+	</dict>
+	<key>freshens</key>
+	<dict>
+		<key>phone</key>
+		<string>(330) 972-7687</string>
+		<key>address</key>
+		<string>303 Carroll Street</string>
+		<key>coodinateX</key>
+		<string>41.075577</string>
+		<key>coodinateY</key>
+		<string>-81.512270</string>
+		<key>site</key>
+		<string>https://www.uakron.edu/dotAsset/c8abc7b4-f0c6-412d-8c13-5967f6a5ee19.pdf</string>
+		<key>name</key>
+		<string>Freshëns</string>
+		<key>hours</key>
+		<string>Monday thru Saturday, 8 a.m. to 9 p.m.
+Sunday, noon to 9 p.m.</string>
+		<key>description</key>
+		<string>A healthy “fast casual” concept, which offers prepared to order food inspired by fresh ingredients, as well as their signature fresh blended smoothies and frozen yogurt.</string>
+	</dict>
+</dict>
+</plist>

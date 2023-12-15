@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9046" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9035"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="cjr61_project" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GYc-HY-Tul">
+                                <rect key="frame" x="196" y="28" width="208" height="39"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="GYc-HY-Tul" secondAttribute="height" multiplier="16:3" id="OW5-BL-b3x"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="The Gods of Smite">
+                                        <attributes>
+                                            <color key="NSColor" red="0.8196220012626263" green="0.78779928420704026" blue="0.30175351688684143" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="25" name="Papyrus"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="OW5-BL-b3x"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pVe-02-11M">
+                                <rect key="frame" x="180" y="67" width="240" height="134"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="lSO-Uv-3ZP">
+                                        <variation key="heightClass=compact" constant="363"/>
+                                    </constraint>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Select a God to learn about them and their role in The Battleground of the Gods (if you don't know any, try Sol)">
+                                        <attributes>
+                                            <color key="NSColor" red="0.69819286616161613" green="0.66954413917984712" blue="0.26401816378323806" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="Papyrus"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ntf-5i-5bb">
+                                <rect key="frame" x="267" y="213" width="153" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="153" id="9Fz-1l-QBY"/>
+                                    <constraint firstAttribute="height" constant="30" id="JsO-WF-aka"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardAppearance="alert"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="JsO-WF-aka"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="JsO-WF-aka"/>
+                                    </mask>
+                                </variation>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="otk-br-Ivp">
+                                <rect key="frame" x="180" y="209" width="42" height="38"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="42" id="ije-Z6-oDR">
+                                        <variation key="heightClass=compact" constant="50"/>
+                                    </constraint>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="God:">
+                                        <attributes>
+                                            <color key="NSColor" red="0.69819286616161613" green="0.66954413917984712" blue="0.26401816378323806" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="Papyrus"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2Ik-A6-9nh">
+                                <rect key="frame" x="267" y="305" width="153" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="153" id="65u-Ir-Chh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BSJ-OS-s2T">
+                                <rect key="frame" x="180" y="301" width="74" height="38"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="74" id="xcm-fj-u3s"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Pantheon:">
+                                        <attributes>
+                                            <color key="NSColor" red="0.69819286616161613" green="0.66954413917984712" blue="0.26401816378323806" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="Papyrus"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bB7-7T-7Yq">
+                                <rect key="frame" x="267" y="259" width="153" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="153" id="fdO-1h-YRk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jlz-Me-1y2">
+                                <rect key="frame" x="180" y="255" width="42" height="38"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="42" id="KZb-cm-rys"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Title:">
+                                        <attributes>
+                                            <color key="NSColor" red="0.69819286616161613" green="0.66954413917984712" blue="0.26401816378323806" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="Papyrus"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Qbe-F1-lH1">
+                                <rect key="frame" x="267" y="351" width="153" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="153" id="JiZ-Xg-KXx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QsI-Cr-PVi">
+                                <rect key="frame" x="180" y="347" width="49" height="38"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="49" id="YSv-hB-aI8"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Class:">
+                                        <attributes>
+                                            <color key="NSColor" red="0.69819286616161613" green="0.66954413917984712" blue="0.26401816378323806" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="Papyrus"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gSa-R5-Dmq">
+                                <rect key="frame" x="267" y="397" width="153" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="153" id="8d8-t8-WlZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ryw-cu-C72">
+                                <rect key="frame" x="180" y="393" width="61" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="61" id="rwW-3E-wRF"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Range:">
+                                        <attributes>
+                                            <color key="NSColor" red="0.69819286616161613" green="0.66954413917984712" blue="0.26401816378323806" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="Papyrus"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ntf-5i-5bb" firstAttribute="leading" secondItem="otk-br-Ivp" secondAttribute="trailing" constant="8" symbolic="YES" id="3gq-fW-NxS"/>
+                            <constraint firstItem="otk-br-Ivp" firstAttribute="top" secondItem="pVe-02-11M" secondAttribute="bottom" constant="8" id="4Up-9X-lUd">
+                                <variation key="heightClass=compact" constant="23"/>
+                            </constraint>
+                            <constraint firstItem="ntf-5i-5bb" firstAttribute="top" secondItem="pVe-02-11M" secondAttribute="bottom" constant="12" id="9FS-vL-Je2"/>
+                            <constraint firstItem="gSa-R5-Dmq" firstAttribute="leading" secondItem="Qbe-F1-lH1" secondAttribute="leading" id="9Lk-Pe-pNP"/>
+                            <constraint firstItem="BSJ-OS-s2T" firstAttribute="centerY" secondItem="2Ik-A6-9nh" secondAttribute="centerY" id="Ceb-IY-k1S"/>
+                            <constraint firstItem="jlz-Me-1y2" firstAttribute="leading" secondItem="ryw-cu-C72" secondAttribute="leading" id="D7Z-Gi-xSa">
+                                <variation key="heightClass=compact" constant="-274"/>
+                            </constraint>
+                            <constraint firstItem="QsI-Cr-PVi" firstAttribute="leading" secondItem="BSJ-OS-s2T" secondAttribute="leading" id="IQM-29-mj7">
+                                <variation key="heightClass=compact" constant="274"/>
+                            </constraint>
+                            <constraint firstItem="BSJ-OS-s2T" firstAttribute="leading" secondItem="otk-br-Ivp" secondAttribute="leading" id="JDH-Kk-d2h">
+                                <variation key="heightClass=compact" constant="-160"/>
+                            </constraint>
+                            <constraint firstItem="otk-br-Ivp" firstAttribute="centerY" secondItem="ntf-5i-5bb" secondAttribute="centerY" id="Jpt-bK-BOF"/>
+                            <constraint firstItem="pVe-02-11M" firstAttribute="top" secondItem="GYc-HY-Tul" secondAttribute="bottom" id="LWw-1p-Y4X">
+                                <variation key="heightClass=compact" constant="-13"/>
+                            </constraint>
+                            <constraint firstItem="2Ik-A6-9nh" firstAttribute="leading" secondItem="BSJ-OS-s2T" secondAttribute="trailing" constant="13" id="PJI-Vx-e9a"/>
+                            <constraint firstItem="jlz-Me-1y2" firstAttribute="centerY" secondItem="bB7-7T-7Yq" secondAttribute="centerY" id="PqA-ch-EZm"/>
+                            <constraint firstItem="ntf-5i-5bb" firstAttribute="top" secondItem="otk-br-Ivp" secondAttribute="top" id="QH3-5T-2Xz"/>
+                            <constraint firstItem="ntf-5i-5bb" firstAttribute="centerX" secondItem="pVe-02-11M" secondAttribute="centerX" constant="43.5" id="Shp-Ul-vbw"/>
+                            <constraint firstItem="ryw-cu-C72" firstAttribute="centerY" secondItem="gSa-R5-Dmq" secondAttribute="centerY" constant="11" id="TTR-cd-YoO"/>
+                            <constraint firstItem="ntf-5i-5bb" firstAttribute="centerY" secondItem="otk-br-Ivp" secondAttribute="centerY" id="TZW-Tp-Stp"/>
+                            <constraint firstItem="BSJ-OS-s2T" firstAttribute="bottom" secondItem="2Ik-A6-9nh" secondAttribute="bottom" constant="4" id="VAx-ih-z8x"/>
+                            <constraint firstItem="otk-br-Ivp" firstAttribute="leading" secondItem="pVe-02-11M" secondAttribute="leading" id="XXC-Ms-V6h">
+                                <variation key="heightClass=compact" constant="66"/>
+                            </constraint>
+                            <constraint firstItem="QsI-Cr-PVi" firstAttribute="centerY" secondItem="Qbe-F1-lH1" secondAttribute="centerY" id="aD0-pI-7Cb"/>
+                            <constraint firstItem="2Ik-A6-9nh" firstAttribute="leading" secondItem="ntf-5i-5bb" secondAttribute="leading" id="ae6-bh-W2Z"/>
+                            <constraint firstItem="pVe-02-11M" firstAttribute="centerX" secondItem="GYc-HY-Tul" secondAttribute="centerX" id="afr-cW-eYM"/>
+                            <constraint firstItem="otk-br-Ivp" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="bAX-uX-tgQ"/>
+                            <constraint firstItem="GYc-HY-Tul" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="duN-Ss-vMG"/>
+                            <constraint firstItem="bB7-7T-7Yq" firstAttribute="top" secondItem="gSa-R5-Dmq" secondAttribute="bottom" constant="-168" id="eTa-sh-Wn8">
+                                <variation key="heightClass=compact" constant="-76"/>
+                            </constraint>
+                            <constraint firstItem="bB7-7T-7Yq" firstAttribute="leading" secondItem="gSa-R5-Dmq" secondAttribute="leading" id="g46-Hc-oHU">
+                                <variation key="heightClass=compact" constant="-256"/>
+                            </constraint>
+                            <constraint firstItem="BSJ-OS-s2T" firstAttribute="top" secondItem="otk-br-Ivp" secondAttribute="bottom" constant="54" id="jAJ-TM-Vzi">
+                                <variation key="heightClass=compact" constant="65"/>
+                            </constraint>
+                            <constraint firstItem="Qbe-F1-lH1" firstAttribute="leading" secondItem="2Ik-A6-9nh" secondAttribute="leading" id="qk3-lP-9RU">
+                                <variation key="heightClass=compact" constant="256"/>
+                            </constraint>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ntf-5i-5bb" secondAttribute="bottom" constant="357" id="qqr-GP-qux"/>
+                            <constraint firstItem="pVe-02-11M" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="31" id="sMG-hL-g2C"/>
+                            <constraint firstItem="QsI-Cr-PVi" firstAttribute="top" secondItem="BSJ-OS-s2T" secondAttribute="bottom" constant="8" id="uyg-Nk-wOf">
+                                <variation key="heightClass=compact" constant="-84"/>
+                            </constraint>
+                            <constraint firstItem="ryw-cu-C72" firstAttribute="leading" secondItem="QsI-Cr-PVi" secondAttribute="leading" id="vSX-fq-k87"/>
+                            <constraint firstItem="ryw-cu-C72" firstAttribute="bottom" secondItem="gSa-R5-Dmq" secondAttribute="bottom" constant="26" id="w22-7H-f4A"/>
+                            <constraint firstItem="GYc-HY-Tul" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="wgR-Ba-2Qa">
+                                <variation key="heightClass=compact" constant="0.0"/>
+                            </constraint>
+                            <constraint firstItem="jlz-Me-1y2" firstAttribute="bottom" secondItem="bB7-7T-7Yq" secondAttribute="bottom" constant="4" id="xHb-Ml-wT1"/>
+                            <constraint firstItem="QsI-Cr-PVi" firstAttribute="bottom" secondItem="Qbe-F1-lH1" secondAttribute="bottom" constant="4" id="xbN-8j-o3d"/>
+                            <constraint firstItem="ryw-cu-C72" firstAttribute="top" secondItem="QsI-Cr-PVi" secondAttribute="bottom" constant="8" id="ygT-Y2-8mD"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="sMG-hL-g2C"/>
+                                <exclude reference="bAX-uX-tgQ"/>
+                                <exclude reference="PJI-Vx-e9a"/>
+                                <exclude reference="3gq-fW-NxS"/>
+                                <exclude reference="QH3-5T-2Xz"/>
+                                <exclude reference="TZW-Tp-Stp"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <include reference="sMG-hL-g2C"/>
+                                <exclude reference="Jpt-bK-BOF"/>
+                                <include reference="bAX-uX-tgQ"/>
+                                <include reference="PJI-Vx-e9a"/>
+                                <exclude reference="ae6-bh-W2Z"/>
+                                <include reference="3gq-fW-NxS"/>
+                                <exclude reference="9FS-vL-Je2"/>
+                                <include reference="QH3-5T-2Xz"/>
+                                <exclude reference="Shp-Ul-vbw"/>
+                                <include reference="TZW-Tp-Stp"/>
+                                <exclude reference="qqr-GP-qux"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="god" destination="ntf-5i-5bb" id="Diz-RE-jua"/>
+                        <outlet property="godClass" destination="Qbe-F1-lH1" id="ExQ-tS-OxI"/>
+                        <outlet property="godTitle" destination="bB7-7T-7Yq" id="2Z7-Uj-7C3"/>
+                        <outlet property="pantheon" destination="2Ik-A6-9nh" id="sMm-UI-Plh"/>
+                        <outlet property="range" destination="gSa-R5-Dmq" id="eac-pZ-kcn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="215" y="174"/>
+        </scene>
+    </scenes>
+</document>

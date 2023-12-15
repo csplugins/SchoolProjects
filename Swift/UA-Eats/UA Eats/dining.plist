@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>burgerFi</key>
+	<dict>
+		<key>phone</key>
+		<string>(330) 923-8701</string>
+		<key>address</key>
+		<string>2002 Portage Tr</string>
+		<key>coodinateX</key>
+		<string>41.148281</string>
+		<key>coodinateY</key>
+		<string>-81.507272</string>
+		<key>site</key>
+		<string>http://burgerfi.com/</string>
+		<key>name</key>
+		<string>BurgerFi</string>
+		<key>hours</key>
+		<string>Monday thru Sunday, 11:00 am to 10:00 pm</string>
+		<key>description</key>
+		<string>Stylish, eco-minded chain serving grass-fed beef burgers, plus hot dogs, craft beer &amp; wine.</string>
+	</dict>
+	<key>burgerKingMarket</key>
+	<dict>
+		<key>phone</key>
+		<string>(330) 762-3498</string>
+		<key>address</key>
+		<string>671 E Market St</string>
+		<key>coodinateX</key>
+		<string>41.077115</string>
+		<key>coodinateY</key>
+		<string>-81.496253</string>
+		<key>site</key>
+		<string>http://www.bk.com/restaurants/oh/akron/671-east-market-street-556.html</string>
+		<key>name</key>
+		<string>Burger King (Market St)</string>
+		<key>hours</key>
+		<string>Monday thru Saturday, 6:00 a.m. to 12:00 a.m. Sunday, 7:00 a.m. to 12:00 a.m.</string>
+		<key>description</key>
+		<string>Often abbreviated as BK, is an American global chain of hamburger fast food restaurants headquartered in unincorporated Miami-Dade County, Florida, United States.</string>
+	</dict>
+	<key>burgerKingHowe</key>
+	<dict>
+		<key>phone</key>
+		<string>(330) 928-0515</string>
+		<key>address</key>
+		<string>290 Howe Ave</string>
+		<key>coodinateX</key>
+		<string>41.118836</string>
+		<key>coodinateY</key>
+		<string>-81.482268</string>
+		<key>site</key>
+		<string>http://www.bk.com/restaurants/oh/cuyahoga-falls/290-howe-avenue-5390.html</string>
+		<key>name</key>
+		<string>Burger King (Howe Ave)</string>
+		<key>hours</key>
+		<string>Monday thru Saturday, 6:00 a.m. to 12:00 a.m. Sunday, 7:00 a.m. to 12:00 a.m.</string>
+		<key>description</key>
+		<string>Often abbreviated as BK, is an American global chain of hamburger fast food restaurants headquartered in unincorporated Miami-Dade County, Florida, United States.</string>
+	</dict>
+	<key>crave</key>
+	<dict>
+		<key>phone</key>
+		<string>(330) 253-1234</string>
+		<key>address</key>
+		<string>57 E Market St</string>
+		<key>coodinateX</key>
+		<string>41.085139</string>
+		<key>coodinateY</key>
+		<string>-81.515765</string>
+		<key>site</key>
+		<string>http://eatdrinkcrave.com/</string>
+		<key>name</key>
+		<string>Crave</string>
+		<key>hours</key>
+		<string>Monday thru Thursday, 11 a.m. to10 p.m. Friday, 11 a.m. to 11 p.m. Saturday, 5 p.m. to 11 p.m.</string>
+		<key>description</key>
+		<string>A diverse menu with global influences is presented in a colorful, contemporary, art-filled setting.</string>
+	</dict>
+	<key>euroGyro</key>
+	<dict>
+		<key>phone</key>
+		<string>(330) 434-4976</string>
+		<key>address</key>
+		<string>444 E Exchange St</string>
+		<key>coodinateX</key>
+		<string>41.083707</string>
+		<key>coodinateY</key>
+		<string>-81.535068</string>
+		<key>site</key>
+		<string>http://www.eurogyro.com/</string>
+		<key>name</key>
+		<string>Euro Gyro</string>
+		<key>hours</key>
+		<string>Monday thru Wednesday, 10:30 a.m. to 3 a.m.
+Thursday thru Saturday, 10:30 a.m. to 3:30 a.m.
+Sunday, 10:30 a.m. to 2:30 a.m.</string>
+		<key>description</key>
+		<string>Restaurant &amp; bar chain serving an eclectic menu of gyros, pizzas, burgers, chicken dinners &amp; more.</string>
+	</dict>
+	<key>gioninos</key>
+	<dict>
+		<key>phone</key>
+		<string>(330) 785-1088</string>
+		<key>address</key>
+		<string>1522 S Main St</string>
+		<key>coodinateX</key>
+		<string>41.045466</string>
+		<key>coodinateY</key>
+		<string>-81.527621</string>
+		<key>site</key>
+		<string>http://www.gioninos.com/</string>
+		<key>name</key>
+		<string>Pionino&apos;s Pizzeria</string>
+		<key>hours</key>
+		<string>Monday thru Thursday, 10:30 a.m. to 10:00 p.m.
+Friday thru Saturday, 10:30 a.m to 11:00 p.m.
+Sunday, 2:00 p.m. to 10:00 p.m.</string>
+		<key>description</key>
+		<string>Down-to-earth pizzeria chain dishing up pies, pastas &amp; subs plus fried chicken &amp; wings.</string>
+	</dict>
+	<key>hanini</key>
+	<dict>
+		<key>phone</key>
+		<string>(330) 258-9600</string>
+		<key>address</key>
+		<string>390 Brown St</string>
+		<key>coodinateX</key>
+		<string>41.071164</string>
+		<key>coodinateY</key>
+		<string>-81.510047</string>
+		<key>site</key>
+		<string>http://www.haninisubs.com/</string>
+		<key>name</key>
+		<string>Hanini Subs</string>
+		<key>hours</key>
+		<string>Monday thru Sunday, 10:00 a.m. to 11:00 p.m.</string>
+		<key>description</key>
+		<string>Known for awesome subs and salads.  Rated on the Fox 8 hotlist for best sandwhiches. </string>
+	</dict>
+	<key>insomnia</key>
+	<dict>
+		<key>phone</key>
+		<string>(877) 632-6654</string>
+		<key>address</key>
+		<string>367 S Main St</string>
+		<key>coodinateX</key>
+		<string>41.075958</string>
+		<key>coodinateY</key>
+		<string>-81.522239</string>
+		<key>site</key>
+		<string>https://insomniacookies.com/</string>
+		<key>name</key>
+		<string>Insomnia Cookies</string>
+		<key>hours</key>
+		<string>Monday thru Friday, 12:00 p.m. to 3:00 a.m. Saturday thru Sunday, 1:00 p.m. to 3:00 a.m.</string>
+		<key>description</key>
+		<string>Bakery chain known for late-night deliveries, with some locations selling ice cream.</string>
+	</dict>
+	<key>marcos</key>
+	<dict>
+		<key>phone</key>
+		<string>(330) 864-5500</string>
+		<key>address</key>
+		<string>9 N Hawkins Ave</string>
+		<key>coodinateX</key>
+		<string>41.110014</string>
+		<key>coodinateY</key>
+		<string>-81.568675</string>
+		<key>site</key>
+		<string>https://www.marcos.com/</string>
+		<key>name</key>
+		<string>Marco&apos;s Pizza</string>
+		<key>hours</key>
+		<string>Monday thru Thursday, 11:00 a.m. to 11:30 p.m. Friday thru Saturday, 11:00 a.m. to 12:30 a.m. Sunday, 11:00 a.m. tp 11:00 p.m.</string>
+		<key>description</key>
+		<string>Operated by Marco&apos;s Franchising, LLC, is a restaurant chain and interstate franchise based in Toledo, Ohio that specializes in Italian-American cuisine. The first store is in Oregon, Ohio at Starr Avenue and Wheeling Street.</string>
+	</dict>
+	<key>zubs</key>
+	<dict>
+		<key>phone</key>
+		<string>(330) 252-0272</string>
+		<key>address</key>
+		<string>812 W Market St</string>
+		<key>coodinateX</key>
+		<string>41.096378</string>
+		<key>coodinateY</key>
+		<string>-81.543628</string>
+		<key>site</key>
+		<string>http://thematinee.net/</string>
+		<key>name</key>
+		<string>Mr. Zubs</string>
+		<key>hours</key>
+		<string>Monday thru Sunday, 11:00 a.m. to 2:30 a.m.</string>
+		<key>description</key>
+		<string>A unique short order deli with two locations (Highland Square, Kent). Not an ordinary sandwich shop, it goes heavy on the quality meats and fresh veggies. Grills sandwiches (even though you can order them cold) and builds them just the way you like them. The menu is large - just like their food.</string>
+	</dict>
+	<key>nuevo</key>
+	<dict>
+		<key>phone</key>
+		<string>(330) 762-8000</string>
+		<key>address</key>
+		<string>54 E Mill St</string>
+		<key>coodinateX</key>
+		<string>41.082153</string>
+		<key>coodinateY</key>
+		<string>-81.517014</string>
+		<key>site</key>
+		<string>http://nuevomodmex.com/</string>
+		<key>name</key>
+		<string>Nuevo Modern Mexican</string>
+		<key>hours</key>
+		<string>Monday thru Friday, 11:00 a.m. to 11:00 p.m.
+Saturday, 3:00 p.m. to 11:00 p.m.
+Sunday, Closed</string>
+		<key>description</key>
+		<string>Updated Mexican classics plus artisanal tequilas in an upscale-casual space with an outdoor patio.</string>
+	</dict>
+	<key>nunzios</key>
+	<dict>
+		<key>phone</key>
+		<string>(330) 252-9922</string>
+		<key>address</key>
+		<string>625 Grant St</string>
+		<key>coodinateX</key>
+		<string>41.066140</string>
+		<key>coodinateY</key>
+		<string>-81.517717</string>
+		<key>site</key>
+		<string>http://nunziospizza.net/</string>
+		<key>name</key>
+		<string>Nunzio&apos;s Pizzeria</string>
+		<key>hours</key>
+		<string>Monday thru Saturday, 4 p.m. to 3:30 a.m.
+(Deliveries until 3:15 a.m.)
+Sunday 2 p.m. to 1:30 a.m.
+(Deliveries until 1:15 a.m.)</string>
+		<key>description</key>
+		<string>This pizzeria is family-owned and operated and headed by Nunzio S. Traina. This talented team cooks up fresh and authentic Italian cuisine that will make your mouth water and your mind drift off to Sicily, even if you’ve never been there!</string>
+	</dict>
+	<key>papaJohns</key>
+	<dict>
+		<key>phone</key>
+		<string>(330) 434-7222</string>
+		<key>address</key>
+		<string>701 E Market St</string>
+		<key>coodinateX</key>
+		<string>41.076431</string>
+		<key>coodinateY</key>
+		<string>-81.495250</string>
+		<key>site</key>
+		<string>https://www.papajohns.com/</string>
+		<key>name</key>
+		<string>Papa John&apos;s Pizza</string>
+		<key>hours</key>
+		<string>Monday thru Thursday, 10:30 a.m. to 12:40 a.m. (Deliveries until 1:00 a.m.) Friday thru Saturday, 10:30 a.m. to 1:40 a.m. (Deliveries until 2:00 a.m.) Sunday, 10:30 a.m. to 11:40 p.m. (Deliveries until 12:00 a.m.)</string>
+		<key>description</key>
+		<string>An American restaurant company. It runs the third largest take-out and pizza delivery restaurant chain in the world, with headquarters in Jeffersontown, Kentucky, a suburb of Louisville.</string>
+	</dict>
+	<key>pennStationHowe</key>
+	<dict>
+		<key>phone</key>
+		<string>(330) 929-7366</string>
+		<key>address</key>
+		<string>753 Howe Ave</string>
+		<key>coodinateX</key>
+		<string>41.119608</string>
+		<key>coodinateY</key>
+		<string>-81.472360</string>
+		<key>site</key>
+		<string>http://www.penn-station.com/</string>
+		<key>name</key>
+		<string>Penn Station (Howe Ave)</string>
+		<key>hours</key>
+		<string>Monday thru Saturday, 11:00 a.m. to 10:00 p.m. Sunday, 12:00 p.m. to 9:00 p.m.</string>
+		<key>description</key>
+		<string>A chain of East Coast sub restaurants found throughout the South and Midwest United States. The first restaurant was opened in 1985 by Jeff Osterfeld in Cincinnati, Ohio. Currently, Penn Station has over 275 locations in 15 states.</string>
+	</dict>
+	<key>pennStationExchange</key>
+	<dict>
+		<key>phone</key>
+		<string>(330) 434-7366</string>
+		<key>address</key>
+		<string>274 E Exchange St</string>
+		<key>coodinateX</key>
+		<string>41.072711</string>
+		<key>coodinateY</key>
+		<string>-81.513386</string>
+		<key>site</key>
+		<string>http://www.penn-station.com/</string>
+		<key>name</key>
+		<string>Penn Station (Exchange St)</string>
+		<key>hours</key>
+		<string>Monday thru Saturday, 11:00 a.m. to 10:00 p.m. Sunday, 11:00 a.m. to 8:00 p.m.</string>
+		<key>description</key>
+		<string>A chain of East Coast sub restaurants found throughout the South and Midwest United States. The first restaurant was opened in 1985 by Jeff Osterfeld in Cincinnati, Ohio. Currently, Penn Station has over 275 locations in 15 states.</string>
+	</dict>
+	<key>pitaPit</key>
+	<dict>
+		<key>phone</key>
+		<string>(330) 434-7482</string>
+		<key>address</key>
+		<string>325 S Main St</string>
+		<key>coodinateX</key>
+		<string>41.076802</string>
+		<key>coodinateY</key>
+		<string>-81.521640</string>
+		<key>site</key>
+		<string>http://pitapitusa.com/</string>
+		<key>name</key>
+		<string>Pita Pit</string>
+		<key>hours</key>
+		<string>Monday thru Friday, 10:00 a.m. to 10:00 p.m. Saturday thru Sunday, 11:00 a.m to 10:00 p.m.</string>
+		<key>description</key>
+		<string>Diners create their own sandwiches at this health-oriented counter-serve chain.</string>
+	</dict>
+	<key>pizzaFire</key>
+	<dict>
+		<key>phone</key>
+		<string>(330) 535-4545</string>
+		<key>address</key>
+		<string>22 E Exchange St</string>
+		<key>coodinateX</key>
+		<string>41.075800</string>
+		<key>coodinateY</key>
+		<string>-81.521398</string>
+		<key>site</key>
+		<string>http://www.pizzafire.com/</string>
+		<key>name</key>
+		<string>Pizza Fire</string>
+		<key>hours</key>
+		<string>Monday thru Thursday, 11:00 a.m. to 11:00 p.m. Friday thru Saturday, 11: a.m to 2:00 a.m. Sunday, 12:00 p.m. to 9:00 p.m.</string>
+		<key>description</key>
+		<string>Everyone gets to create their own pizza!  And there are so many choices!  With 6 different sauces, 5 different cheeses, and 40 fresh toppings, you can create your very own pizza masterpiece!</string>
+	</dict>
+	<key>pizzaHut</key>
+	<dict>
+		<key>phone</key>
+		<string>(330) 535-4444</string>
+		<key>address</key>
+		<string>396 E Market St</string>
+		<key>coodinateX</key>
+		<string>41.080281</string>
+		<key>coodinateY</key>
+		<string>-81.505354</string>
+		<key>site</key>
+		<string>https://order.pizzahut.com/home?</string>
+		<key>name</key>
+		<string>Pizza Hut</string>
+		<key>hours</key>
+		<string>Sunday thru Thursday, 11:00 a.m. to 12:00 a.m. Friday thrue Saturday, 11:00 a.m. to 1:00 a.m.</string>
+		<key>description</key>
+		<string>An American restaurant chain and international franchise, known for pizza and side dishes. It is now corporately known as Pizza Hut, Inc. and is a subsidiary of Yum! Brands, Inc., the world&apos;s largest restaurant company.</string>
+	</dict>
+	<key>subwayMain</key>
+	<dict>
+		<key>phone</key>
+		<string>(330) 375-5080</string>
+		<key>address</key>
+		<string>348 S Main St</string>
+		<key>coodinateX</key>
+		<string>41.076479</string>
+		<key>coodinateY</key>
+		<string>-81.522436</string>
+		<key>site</key>
+		<string>http://www.subway.com/subwayroot/default.aspx</string>
+		<key>name</key>
+		<string>Subway (Main St)</string>
+		<key>hours</key>
+		<string>Monday thru Friday, 7:00 a.m. to 9:00 p.m. Saturday, 10:00 a.m. to 3:00 p.m. Sunday, closed</string>
+		<key>description</key>
+		<string>An American fast food restaurant franchise that primarily sells submarine sandwiches and salads. It is owned and operated by Doctor&apos;s Associates Inc.</string>
+	</dict>
+	<key>subwayUnion</key>
+	<dict>
+		<key>phone</key>
+		<string>(330) 972-2662</string>
+		<key>address</key>
+		<string>303 Carroll Street</string>
+		<key>coodinateX</key>
+		<string>41.075515</string>
+		<key>coodinateY</key>
+		<string>-81.512150</string>
+		<key>site</key>
+		<string>http://www.subway.com/subwayroot/default.aspx</string>
+		<key>name</key>
+		<string>Subway (Union)</string>
+		<key>hours</key>
+		<string>Monday thru Thirsday, 7:00 a.m. to 6:00 p.m. Friday, 7:00 a.m. to 4:00 p.m. Saturday thru Sunday, closed</string>
+		<key>description</key>
+		<string>An American fast food restaurant franchise that primarily sells submarine sandwiches and salads. It is owned and operated by Doctor&apos;s Associates Inc.</string>
+	</dict>
+	<key>subwayExchange</key>
+	<dict>
+		<key>phone</key>
+		<string>(330) 253-9667</string>
+		<key>address</key>
+		<string>484 E Exchange St</string>
+		<key>coodinateX</key>
+		<string>41.070927</string>
+		<key>coodinateY</key>
+		<string>-81.506309</string>
+		<key>site</key>
+		<string>http://www.subway.com/subwayroot/default.aspx</string>
+		<key>name</key>
+		<string>Subway (Exchange St)</string>
+		<key>hours</key>
+		<string>Monday thru Friday, 7:00 a.m. to 4:00 a.m. Saturday thru Sunday, 8:00 a.m. to 4:00 a.m.</string>
+		<key>description</key>
+		<string>An American fast food restaurant franchise that primarily sells submarine sandwiches and salads. It is owned and operated by Doctor&apos;s Associates Inc.</string>
+	</dict>
+	<key>lockview</key>
+	<dict>
+		<key>phone</key>
+		<string>(330) 252-5128</string>
+		<key>address</key>
+		<string>207 S Main St</string>
+		<key>coodinateX</key>
+		<string>41.079665</string>
+		<key>coodinateY</key>
+		<string>-81.519457</string>
+		<key>site</key>
+		<string>http://www.thelockview.com/</string>
+		<key>name</key>
+		<string>The Lockview</string>
+		<key>hours</key>
+		<string>Monday thru Tuesday, 11:00 a.m. to 12:00 a.m. Wednesday thru Thursday, 11:00 a.m. to 1:00 a.m. Friday, 11:00 a.m. to 2:00 a.m. Saturday, 12:00 p.m. to 2:00 a.m. Sunday, 4:00 p.m. to 12:00 a.m.</string>
+		<key>description</key>
+		<string>An easygoing hangout offering creative grilled cheese sandwiches alongside drinks from the full bar.</string>
+	</dict>
+	<key>aladdins</key>
+	<dict>
+		<key>phone</key>
+		<string>(330) 535-0110</string>
+		<key>address</key>
+		<string>782 W Market St</string>
+		<key>coodinateX</key>
+		<string>41.095985</string>
+		<key>coodinateY</key>
+		<string>-81.542655</string>
+		<key>site</key>
+		<string>http://www.aladdinseatery.com/</string>
+		<key>name</key>
+		<string>Aladin&apos;s Eatery</string>
+		<key>hours</key>
+		<string>Monday thru Saturday, 11:00 a.m. to 10:00 p.m. Sunday, 11:00 a.m. to 9:00 p.m.</string>
+		<key>description</key>
+		<string>A chain of franchised restaurants in the American Midwest and South-East, specializing in Lebanese cuisine. Adapted to American tastes, the sites are fast casual restaurants that also offer take out.</string>
+	</dict>
+	<key>barleyHouse</key>
+	<dict>
+		<key>phone</key>
+		<string>(330) 374-0925</string>
+		<key>address</key>
+		<string>222 S Main St</string>
+		<key>coodinateX</key>
+		<string>41.079286</string>
+		<key>coodinateY</key>
+		<string>-81.520774</string>
+		<key>site</key>
+		<string>http://www.barleyhouseakron.com/</string>
+		<key>name</key>
+		<string>Barley House</string>
+		<key>hours</key>
+		<string>Monday thru Sunday, 11:00 a.m. to 9:00 p.m.</string>
+		<key>description</key>
+		<string>A sprawling space offering live music &amp; karaoke along with a pub menu and lots of draft beers.</string>
+	</dict>
+	<key>bw3</key>
+	<dict>
+		<key>phone</key>
+		<string>(330) 535-9464</string>
+		<key>address</key>
+		<string>456 E Exchange St</string>
+		<key>coodinateX</key>
+		<string>41.070940</string>
+		<key>coodinateY</key>
+		<string>-81.507166</string>
+		<key>site</key>
+		<string>http://www.buffalowildwings.com/</string>
+		<key>name</key>
+		<string>Buffalo Wild Wings</string>
+		<key>hours</key>
+		<string>Sunday thru Thursday, 11:00 a.m. to 12:00 p.m. Friday thru Saturday, 11:00 a.m. to 1:00 a.m.</string>
+		<key>description</key>
+		<string>Lively sports-bar chain dishing up wings &amp; other American pub grub amid lots of large-screen TVs.</string>
+	</dict>
+	<key>chipotleHowe</key>
+	<dict>
+		<key>phone</key>
+		<string>(330) 920-1295</string>
+		<key>address</key>
+		<string>371 Howe Ave</string>
+		<key>coodinateX</key>
+		<string>41.119577</string>
+		<key>coodinateY</key>
+		<string>-81.479434</string>
+		<key>site</key>
+		<string>https://www.chipotle.com/</string>
+		<key>name</key>
+		<string>Chipotle</string>
+		<key>hours</key>
+		<string>Wednesday thru Monday, 11:00 a.m. to 10:00 p.m. Tuesday, 12:00 p.m. to 10:00 p.m.</string>
+		<key>description</key>
+		<string>A chain of restaurants in the United States, United Kingdom, Canada, Germany, and France, specializing in Mission burritos and tacos.</string>
+	</dict>
+	<key>chipotleMarket</key>
+	<dict>
+		<key>phone</key>
+		<string>(330) 374-0204</string>
+		<key>address</key>
+		<string>825 W Market St</string>
+		<key>coodinateX</key>
+		<string>41.097007</string>
+		<key>coodinateY</key>
+		<string>-81.543837</string>
+		<key>site</key>
+		<string>https://www.chipotle.com/</string>
+		<key>name</key>
+		<string>Chipotle</string>
+		<key>hours</key>
+		<string>Monday thru Sunday 11:00 a.m. to 10:00 p.m.</string>
+		<key>description</key>
+		<string>A chain of restaurants in the United States, United Kingdom, Canada, Germany, and France, specializing in Mission burritos and tacos.</string>
+	</dict>
+	<key>chickfila</key>
+	<dict>
+		<key>phone</key>
+		<string>(330) 920-4544</string>
+		<key>address</key>
+		<string>420 Howe Ave</string>
+		<key>coodinateX</key>
+		<string>41.118753</string>
+		<key>coodinateY</key>
+		<string>-81.479865</string>
+		<key>site</key>
+		<string>http://www.chick-fil-a.com/</string>
+		<key>name</key>
+		<string>Chick-fil-A</string>
+		<key>hours</key>
+		<string>Monday thru Saturday, 6:30 a.m. to 10:00 p.m. Sunday, closed</string>
+		<key>description</key>
+		<string>Fast-food chain serving chicken sandwiches, strips &amp; nuggets along with salads &amp; sides.</string>
+	</dict>
+	<key>cilantro</key>
+	<dict>
+		<key>phone</key>
+		<string>(330) 434-2876</string>
+		<key>address</key>
+		<string>326 S Main St</string>
+		<key>coodinateX</key>
+		<string>41.077134</string>
+		<key>coodinateY</key>
+		<string>-81.522243</string>
+		<key>site</key>
+		<string>http://cilantrothai.com/</string>
+		<key>name</key>
+		<string>Cilantro Thai</string>
+		<key>hours</key>
+		<string>Monday thru Thursday, 11:00 am to 2:30 p.m. 5:00 p.m. to  to 9:30 p.m.  Friday, 11:00 a.m. to 2:30 p.m. 5:00 p.m. to 11:00 p.m.  Saturday, 4:30 p.m. to 11:00 p.m.  Sunday, 4:30 p.m. to 9:30 p.m.</string>
+		<key>description</key>
+		<string>A Thai-Japanese hybrid offering beer, wine &amp; specialty cocktails in a contemporary room.</string>
+	</dict>
+	<key>cvs</key>
+	<dict>
+		<key>phone</key>
+		<string>(330) 535-2700</string>
+		<key>address</key>
+		<string>590 E Market St</string>
+		<key>coodinateX</key>
+		<string>41.077215</string>
+		<key>coodinateY</key>
+		<string>-81.498755</string>
+		<key>site</key>
+		<string>http://www.cvs.com/</string>
+		<key>name</key>
+		<string>CVS Pharmacy</string>
+		<key>hours</key>
+		<string>Monday thru Sunday, open 24 hours</string>
+		<key>description</key>
+		<string>An American pharmacy retailer and currently stands as the second largest pharmacy chain, after Walgreens, in the United States, with more than 7,600 stores, and is the second largest US pharmacy based on total prescription revenue.</string>
+	</dict>
+	<key>daves</key>
+	<dict>
+		<key>phone</key>
+		<string>(330) 253-8957</string>
+		<key>address</key>
+		<string>871 E Exchange St</string>
+		<key>coodinateX</key>
+		<string>41.071488</string>
+		<key>coodinateY</key>
+		<string>-81.493610</string>
+		<key>site</key>
+		<string>http://www.davesmarkets.com/</string>
+		<key>name</key>
+		<string>Dave&apos;s Markets</string>
+		<key>hours</key>
+		<string>Monday thru Saturday, 7:00 a.m. to 10:00 p.m. Sunday, 7:00 a.m. to 8:00 p.m.</string>
+		<key>description</key>
+		<string>Market with groceries, in-store butchers &amp; delis. Some have pharmacies &amp; liquor departments.</string>
+	</dict>
+	<key>eatnpark</key>
+	<dict>
+		<key>phone</key>
+		<string>(330) 923-4111</string>
+		<key>address</key>
+		<string>200 Howe Ave</string>
+		<key>coodinateX</key>
+		<string>41.118836</string>
+		<key>coodinateY</key>
+		<string>-81.483972</string>
+		<key>site</key>
+		<string>http://www.eatnpark.com/</string>
+		<key>name</key>
+		<string>Eat &apos;n Park</string>
+		<key>hours</key>
+		<string>Monday thru Sunday, open 24 hours</string>
+		<key>description</key>
+		<string>Family-friendly diner chain serving up all-day American comfort food &amp; signature Smiley Cookies.</string>
+	</dict>
+	<key>fiveGuysHowe</key>
+	<dict>
+		<key>phone</key>
+		<string>(330) 920-9444</string>
+		<key>address</key>
+		<string>753 Howe Ave</string>
+		<key>coodinateX</key>
+		<string>41.119792</string>
+		<key>coodinateY</key>
+		<string>-81.471922</string>
+		<key>site</key>
+		<string>http://www.fiveguys.com/</string>
+		<key>name</key>
+		<string>Five Guys Burgers &amp; Fries (Howe Ave)</string>
+		<key>hours</key>
+		<string>Monday thru Sunday, 11:00 a.m. to 10:00 p.m.</string>
+		<key>description</key>
+		<string>Fast-food chain with made-to-order burgers, fries &amp; hot dogs, plus free peanuts while you wait.</string>
+	</dict>
+	<key>fiveGuysMedina</key>
+	<dict>
+		<key>phone</key>
+		<string>(330) 665-5551</string>
+		<key>address</key>
+		<string>3863 Medina Rd</string>
+		<key>coodinateX</key>
+		<string>41.136215</string>
+		<key>coodinateY</key>
+		<string>-81.638153</string>
+		<key>site</key>
+		<string>http://www.fiveguys.com/</string>
+		<key>name</key>
+		<string>Five Guys Burgers &amp; Fries (Medina Rd)</string>
+		<key>hours</key>
+		<string>Monday thru Sunday, 11:00 a.m. to 10:00 p.m.</string>
+		<key>description</key>
+		<string>Fast-food chain with made-to-order burgers, fries &amp; hot dogs, plus free peanuts while you wait.</string>
+	</dict>
+	<key>giantEagleHowe</key>
+	<dict>
+		<key>phone</key>
+		<string>(330) 929-2030</string>
+		<key>address</key>
+		<string>230 Howe Ave</string>
+		<key>coodinateX</key>
+		<string>41.117270</string>
+		<key>coodinateY</key>
+		<string>-81.483236</string>
+		<key>site</key>
+		<string>http://www.gianteagle.com/</string>
+		<key>name</key>
+		<string>Giant Eagle (Howe Ave)</string>
+		<key>hours</key>
+		<string>Monday thru Sunday 6:00 a.m. to 12:00 a.m.  Bakery, Monday thru Sunday, 7:00 a.m. to 9:00 p.m.  Deli, Monday thru Sunday, 8:00 a.m. to 9:00 p.m.  Meat, Monday thru Thursday, 10:00 a.m. to 9:00 p.m. Friday thru Sunday, 9:00 a.m to 9:00 p.m.  Pharmacy, Sunday, 9:00 a.m. to 5:00 p.m. Monday thru Friday, 9:00 a.m. to 9:00 p.m. Saturday, 9:00 a.m. to 7:00 p.m.  Prepared Foods, Monday thru Sunday, 10:00 a.m. to 8:00 p.m.  Seafood, Monday thru Thursday, 10:00 a.m. to 9:00 p.m. Firday thru Sunday, 9:00 a.m. to 9:00 p.m.</string>
+		<key>description</key>
+		<string>A supermarket chain with stores in the U.S. states of Pennsylvania, Ohio, West Virginia, Indiana and Maryland. The company was founded in 1918 in Pittsburgh, Pennsylvania and incorporated on March 17, 1933. </string>
+	</dict>
+	<key>giantEagleWaterloo</key>
+	<dict>
+		<key>phone</key>
+		<string>(330) 773-7322</string>
+		<key>address</key>
+		<string>484 Waterloo Rd</string>
+		<key>coodinateX</key>
+		<string>41.027505</string>
+		<key>coodinateY</key>
+		<string>-81.509412</string>
+		<key>site</key>
+		<string>http://www.gianteagle.com/</string>
+		<key>name</key>
+		<string>Giant Eagle (Waterloo)</string>
+		<key>hours</key>
+		<string>Monday thru Sunday, 6:00 a.m. to 12:00 a.m.  Deli, Monday thru Sunday, 8:00 a.m. to 9:00 p.m.  Meat, Sunday thru Thursday, 10:00 a.m. to 8:00 p.m. Friday thru Saturday 9:00 a.m. to 9:00 p.m.  Pharmacy, Sunday, 9:00 a.m. to 6:00 p.m. Monday thru Friday, 9:00 a.m. to 9:00 p.m. Saturday, 9:00 a.m. to 7:00 p.m.  Prepared Foods, Monday thru Sunday, 10:00 a.m. to 8:00 p.m.</string>
+		<key>description</key>
+		<string>A supermarket chain with stores in the U.S. states of Pennsylvania, Ohio, West Virginia, Indiana and Maryland. The company was founded in 1918 in Pittsburgh, Pennsylvania and incorporated on March 17, 1933. </string>
+	</dict>
+	<key>giantEagleMD</key>
+	<dict>
+		<key>phone</key>
+		<string>(330) 928-6669</string>
+		<key>address</key>
+		<string>2687 State Rd</string>
+		<key>coodinateX</key>
+		<string>41.146573</string>
+		<key>coodinateY</key>
+		<string>-81.506913</string>
+		<key>site</key>
+		<string>http://www.gianteagle.com/</string>
+		<key>name</key>
+		<string>Giant Eagle Market District</string>
+		<key>hours</key>
+		<string>Monday thru Sunday, open 24 hours  Bakery, Monday thru Sunday, 7:00 a.m. to 9:00 p.m.  Deli, Monday thru Sunday, 7:00 a.m. to 10:00 p.m.  Meat, Monday thru Thursday, 10:00 a.m. to 9:00 p.m. Friday thru Sunday, 9:00 a.m. 9:00 p.m.  Pharmacy, Monday thru Friday, 9:00 a.m. to 9:0 p.m. Saturday, 9:00 a.m. to 7:00 p.m. Sunday, 9:00 a.m. to 6:00 p.m.  Prepared Foods, Monday thru Sunday, 10:00 a.m. to 8:00 p.m.  Seafood, Monday thru Thursday, 10:00 a.m. to 9:00 p.m. Firday thru Sunday, 9:00 a.m. to 9:00 p.m.</string>
+		<key>description</key>
+		<string>A supermarket chain with stores in the U.S. states of Pennsylvania, Ohio, West Virginia, Indiana and Maryland. The company was founded in 1918 in Pittsburgh, Pennsylvania and incorporated on March 17, 1933. </string>
+	</dict>
+	<key>trecasos</key>
+	<dict>
+		<key>phone</key>
+		<string>(330) 253-7751</string>
+		<key>address</key>
+		<string>780 W Market St</string>
+		<key>coodinateX</key>
+		<string>41.095865</string>
+		<key>coodinateY</key>
+		<string>-81.542549</string>
+		<key>site</key>
+		<string>http://www.marycoyle.com/</string>
+		<key>name</key>
+		<string>Mary Coyle (Trecaso&apos;s)</string>
+		<key>hours</key>
+		<string>Monday thru Thurday, 11:30 a.m. to 10:00 p.m
+Friday thru Saturday, 11:30 a.m. to 11:30 p.m.
+Sunday, 3:00 p.m. to 9:00 p.m.
+Monday	11:30 AM – 10:00 PM</string>
+		<key>description</key>
+		<string>You can get great Italian Food and Ice Cream! Mary Coyle has not changed a bit over the years, and it has a very comfortable atmosphere. It is one of the oldest restaurants still operating in Akron.</string>
+	</dict>
+	<key>spaghettiWH</key>
+	<dict>
+		<key>phone</key>
+		<string>(330) 374-0025</string>
+		<key>address</key>
+		<string>510 S Main St</string>
+		<key>coodinateX</key>
+		<string>41.073727</string>
+		<key>coodinateY</key>
+		<string>-81.525600</string>
+		<key>site</key>
+		<string>http://www.meatballs.com/</string>
+		<key>name</key>
+		<string>Spaghetti Warehouse</string>
+		<key>hours</key>
+		<string>Sunday thru Thursday, 11:00 a.m. to 10:00 p.m. Friday thru Saturday, 11:00 a.m. to 11:00 p.m.</string>
+		<key>description</key>
+		<string>Pasta is the specialty of this casual Italian chain with a family-friendly vibe.</string>
+	</dict>
+	<key>starz</key>
+	<dict>
+		<key>phone</key>
+		<string>(330) 535-4311</string>
+		<key>address</key>
+		<string>300 E Exchange St</string>
+		<key>coodinateX</key>
+		<string>41.072471</string>
+		<key>coodinateY</key>
+		<string>-81.512445</string>
+		<key>site</key>
+		<string>http://www.yelp.com/biz/starz-market-akron</string>
+		<key>name</key>
+		<string>Starz Market</string>
+		<key>hours</key>
+		<string>Monday thru Wednesday, 7:30 a.m. to 10:30 p.m. Thursday thru Friday, 7:30 a.m. to 11:59 p.m. Saturday, 8:00 a.m. to 11:30 p.m. Sunday, 9:00 a.m. to 6:30 p.m.</string>
+		<key>description</key>
+		<string>Categorized under Grocery Stores. Records show it was established in 2007 and incorporated in Ohio. Current estimates show this company has an annual revenue of $1 to 2.5 million and employs a staff of approximately 5 to 9.</string>
+	</dict>
+	<key>tacoBell</key>
+	<dict>
+		<key>phone</key>
+		<string>(330) 762-8080</string>
+		<key>address</key>
+		<string>414 E Exchange St</string>
+		<key>coodinateX</key>
+		<string>41.070916</string>
+		<key>coodinateY</key>
+		<string>-81.508817</string>
+		<key>site</key>
+		<string>https://www.tacobell.com/</string>
+		<key>name</key>
+		<string>Taco Bell</string>
+		<key>hours</key>
+		<string>Sunday thru Wednesday, 7:00 a.m. to 4:00 a.m. Thursday thru Saturday, 7:00 a.m. to 5:00 a.m.</string>
+		<key>description</key>
+		<string>An American chain of fast-food restaurants based in Irvine, California. A subsidiary of Yum!</string>
+	</dict>
+	<key>wendys</key>
+	<dict>
+		<key>phone</key>
+		<string>(330) 762-8753</string>
+		<key>address</key>
+		<string>623 E Market St</string>
+		<key>coodinateX</key>
+		<string>41.077630</string>
+		<key>coodinateY</key>
+		<string>-81.497724</string>
+		<key>site</key>
+		<string>https://www.wendys.com/</string>
+		<key>name</key>
+		<string>Wendy&apos;s Hamburgers</string>
+		<key>hours</key>
+		<string>Sunday thru Wednesday, 10:30 a.m. to 12:00 a.m. Thirsday thru Saturday, 10:30 a.m. to 1:00 a.m.</string>
+		<key>description</key>
+		<string>An American international fast food restaurant chain founded by Dave Thomas on November 15, 1969, in Columbus, Ohio, United States. The company moved its headquarters to Dublin, Ohio, on January 29, 2006.</string>
+	</dict>
+</dict>
+</plist>

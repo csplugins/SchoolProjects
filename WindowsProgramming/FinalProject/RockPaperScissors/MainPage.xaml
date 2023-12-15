@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="RockPaperScissors.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RockPaperScissors"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:Name="rock" Content="Rock" HorizontalAlignment="Stretch" Margin="140,150,140,0" VerticalAlignment="Top" Click="rock_Click"/>
+        <Button x:Name="paper" Content="Paper" HorizontalAlignment="Stretch" Margin="140,250,140,0" VerticalAlignment="Top" Click="paper_Click"/>
+        <Button x:Name="scissors" Content="Scissors" HorizontalAlignment="Stretch" Margin="140,350,140,0" VerticalAlignment="Top" Click="scissors_Click"/>
+        <TextBlock x:Name="TopMenu" Margin="100,100,100,0" TextWrapping="Wrap" TextAlignment="Center" Text="Rock Paper Scissors" VerticalAlignment="Top"/>
+        <TextBlock x:Name="Result" Margin="100,440,100,0" TextWrapping="Wrap" TextAlignment="Center" Text="" VerticalAlignment="Top"/>
+    </Grid>
+</Page>
